@@ -81,7 +81,7 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="251" id="ea0-4L-Ybx"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="sliderRed:" destination="BYZ-38-t0r" eventType="valueChanged" id="bIa-SK-T8S"/>
+                                    <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ker-3D-Bd2"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rRK-kb-i9M">
@@ -91,7 +91,7 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="251" id="KaF-jl-uyo"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="sliderRed:" destination="BYZ-38-t0r" eventType="valueChanged" id="mCV-d7-kOM"/>
+                                    <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="a6E-Ej-3rl"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="tOf-su-R3F">
@@ -100,7 +100,7 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="251" id="SWo-YI-Ay8"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="sliderRed:" destination="BYZ-38-t0r" eventType="valueChanged" id="oKb-DE-TA9"/>
+                                    <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Z0o-lS-hGh"/>
                                 </connections>
                             </slider>
                         </subviews>
@@ -140,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23.188405797101453" y="-36.160714285714285"/>
+            <point key="canvasLocation" x="275" y="-204"/>
         </scene>
     </scenes>
     <resources>
